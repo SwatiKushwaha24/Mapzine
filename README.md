@@ -1,4 +1,4 @@
-# WorldWebMap
+# Mapzine
 Python program to built a web-map containing three layers (base-map, volcanoes and population) with markers containing popup window and links.
 
 
