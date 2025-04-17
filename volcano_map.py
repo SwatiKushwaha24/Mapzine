@@ -93,7 +93,7 @@ for lt, ln, el, nm in zip(lat, lon, elev, name):
         max_width=400
     )
     
-    # Add marker with the popup
+    # Adding marker with the popup
     folium.Marker(
         location=[lt, ln],
         popup=popup,
@@ -129,12 +129,12 @@ folium.GeoJson(
     )
 ).add_to(fg_population)
 
-# Add layers and controls
+# Adding layers and controls
 m.add_child(fg_volcanoes)
 m.add_child(fg_population)
 m.add_child(folium.LayerControl(position='topright'))
 
-# Add a legend
+# Adding a legend
 legend_html = '''
 <div style="
     position: fixed; 
